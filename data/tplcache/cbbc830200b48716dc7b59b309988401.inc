@@ -1,0 +1,1 @@
+<div class="lkson"><a href="[field:arcurl/]" title="[field:title/]" class="pic"><img src="[field:picname/]" onerror="this.src='/images/nopic.gif';" width="288" height="216" alt="[field:title/]" title="[field:title/]"/></a><a href="[field:arcurl/]" title="[field:title/]" class="text">[field:title/]</a></div>

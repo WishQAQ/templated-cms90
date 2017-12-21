@@ -1,0 +1,1 @@
+<div class="pic_i"> <a href="[field:arcurl/]" title="[field:title/]" > <img src="[field:picname/]" rel="17" onerror="this.src='/images/nopic.gif';" width="163" height="121" title="[field:title/]" alt="[field:title/]"/> </a> </div>

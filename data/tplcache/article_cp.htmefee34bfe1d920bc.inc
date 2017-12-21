@@ -1,0 +1,46 @@
+<?php
+$z[0]=Array("field","",254,273);
+$z[0][4]['name']="title";
+$z[1]=Array("global","",274,300);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",341,363);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",403,454);
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("include","",1124,1159);
+$z[4][4]['filename']="head.htm";
+$z[5]=Array("field","",1555,1584);
+$z[5][4]['name']="position";
+$z[6]=Array("channel"," <a href=\"[field:typeurl/]\" title=\"[field:typename/]\">[field:typename/]</a> ",1703,1886);
+$z[6][4]['type']="son";
+$z[6][4]['currentstyle']="<a href='~typelink~' class='hover'>~typename~</a>";
+$z[7]=Array("field","",1986,2005);
+$z[7][4]['name']="title";
+$z[8]=Array("field","",2046,2074);
+$z[8][4]['name']="picname";
+$z[9]=Array("field","",2146,2165);
+$z[9][4]['name']="title";
+$z[10]=Array("field","",2174,2193);
+$z[10][4]['name']="title";
+$z[11]=Array("field","",2272,2288);
+$z[11][4]['name']="pp";
+$z[12]=Array("field","",2347,2369);
+$z[12][4]['name']="typename";
+$z[13]=Array("field","",2428,2444);
+$z[13][4]['name']="cz";
+$z[14]=Array("field","",2503,2519);
+$z[14][4]['name']="fs";
+$z[15]=Array("field","",2598,2615);
+$z[15][4]['name']="scs";
+$z[16]=Array("field","",2743,2761);
+$z[16][4]['name']="body";
+$z[17]=Array("prenext","",2836,2861);
+$z[17][4]['get']="pre";
+$z[18]=Array("prenext","",2895,2921);
+$z[18][4]['get']="next";
+$z[19]=Array("type","<a href=\"[field:typelink/]\" title=\"返回列表\">返回列表</a>",2954,3042);
+$z[20]=Array("include","",3081,3118);
+$z[20][4]['filename']="footer.htm";
+
+?>

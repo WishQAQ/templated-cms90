@@ -1,0 +1,1 @@
+<li> <a href="[field:arcurl/]" title="[field:title/]" ><img src="[field:picname/]" onerror="this.src='/images/nopic.gif';" width="290" height="195" alt="[field:title/]"  /></a> </li>

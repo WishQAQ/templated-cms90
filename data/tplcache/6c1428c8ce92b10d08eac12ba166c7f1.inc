@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" title="查看更多新闻" class="more_p">查看更多新闻</a>

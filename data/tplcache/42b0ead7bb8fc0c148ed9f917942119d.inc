@@ -1,0 +1,1 @@
+<div class="lft"> <a href="[field:arcurl/]" id="href1" title="[field:title/]" > <img src="[field:picname/]" id="bigpic" onerror="this.src='/images/nopic.gif';" width="518" height="388" title="[field:title/]" alt="[field:title/]"/> </a> <span><a href="[field:arcurl/]" id="href2" title="[field:title/]" ><font id="titles">[field:title/]</font><em>查看详情&gt;&gt;</em></a></span> </div>

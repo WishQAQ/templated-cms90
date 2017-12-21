@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<LINK href="/skin/css/index.css" rel=stylesheet>
+<LINK href="/skin/css/jbox.css" rel=stylesheet>
+<script language="JavaScript" type="text/javascript" src="/skin/js/jquery.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/hdp.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/zong.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/formvalid.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/fv_onblur.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/jquery.jbox-2.3.min.js"></script>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="banner"> <img src="/skin/images/banner1.jpg" width="1600" height="231" title="banner" alt="banner"/> </div>
+<!--产品展示-->
+<div class="products_show">
+  <div class="center">
+    <div class="position">
+      <div class="fl">
+        <div class="cpzs lxwm">{dede:field name='typeid' function="GetTopTypename(@me)"/}</div>
+      </div>
+      <div class="fr">
+        <div class="n2_dqwz"> 您当前的位置：{dede:field name='position'/} </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="contact_us"> {dede:field.content/}
+      <div id="dituContent" style="width:70%; height:400px; float:left; margin:55px 20px 70px 0px;">&nbsp;</div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<div class="center zl_tit1">
+  <div class="mtop30"></div>
+  <div class="zl_tit">质量是需要全员参与监督才能生产出顾客满意的产品</div>
+</div>
+<div id="link" class="w1004 i_link"> 
+  <SCRIPT type="text/javascript" src="/skin/js/link.js"></SCRIPT>
+  <div class="lk_width"> <i class="lk_ctrl btn1"><img src="/skin/images/left.jpg"  width="28" height="28"/></i>
+    <div class="center">
+      <div class="lk_con">
+        <div class="lkgd"> {dede:arclist row=7 titlelen=32 typeid='2'}
+          <div class="lkson"><a href="[field:arcurl/]" title="[field:title/]" class="pic"><img src="[field:picname/]" onerror="this.src='/images/nopic.gif';" width="288" height="216" alt="[field:title/]" title="[field:title/]"/></a><a href="[field:arcurl/]" title="[field:title/]" class="text">[field:title/]</a></div>
+          {/dede:arclist} </div>
+      </div>
+    </div>
+    <i class="lk_ctrl2 btn2"><img src="/skin/images/right.jpg"  width="28" height="28"/></i> </div>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>
+<script>
+var baidumapArr = [{title:"广东省金属制品有限公司",content:"地址：广东省丝网工业园区1-06（北边）<br />电话：0318-8099111",point:"115.502698|38.23165",mapid:"dituContent"}];
+</script>
+<script type="text/javascript" src="/skin/js/fa5ea90bd23348cda66501dc07e822fa.js"></script>
+<script type="text/javascript" src="/skin/js/bdmap.js"></script>

@@ -1,0 +1,1 @@
+<li class="psh"> <img width="291" height="218" src="[field:picname/]" onerror="this.src='/images/nopic.gif';" alt="[field:title/]" title="[field:title/]" /> <a href="[field:arcurl/]" title="[field:title/]"><em>[field:title/]</em><span>[field:title/]</span></a> </li>
